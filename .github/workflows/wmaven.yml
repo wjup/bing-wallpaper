@@ -4,10 +4,9 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string ok
+    - cron:  '0 9,17 * * *'
 
 jobs:
   build:
@@ -22,3 +21,17 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Run Java Application
+      run: java -jar target/bing-wallpaper-jar-with-dependencies.jar
+    - name: Commit files
+      run: |
+         git config --local user.email "1550233929@qq.com"
+         git config --local user.name "wjup"
+         git add README.md
+         git add bing-wallpaper.md
+         git commit -m "update readme.md"
+    - name: Push changes
+      uses:  ad-m/github-push-action@master
+      with:
+         github_token: ${{ secrets.ACTION_TOKEN }}
+         branch: main
