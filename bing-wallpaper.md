@@ -1,4 +1,6 @@
 ## Bing Wallpaper
+2021-03-06 | [Mineral-laden water in the Rio Tinto, Minas de Riotinto mining area, Huelva province, Andalusia, Spain (© David Santiago Garcia/Getty Images)](https://cn.bing.com/th?id=OHR.MinasdeRioTinto_EN-US0408244151_UHD.jpg) 
+
 2021-03-05 | [Nusa Dua coast with breakwater, Bali, Indonesia (© Dkart/Getty Images)](https://cn.bing.com/th?id=OHR.Comma_EN-US0289421685_UHD.jpg) 
 
 2021-03-03 | [Volcano Llaima with Araucaria trees in the foreground, Conguillío National Park, Chile (© Fotografías Jorge León Cabello/Getty Images)](https://cn.bing.com/th?id=OHR.VolcanoLlaima_EN-US0109967122_UHD.jpg) 
